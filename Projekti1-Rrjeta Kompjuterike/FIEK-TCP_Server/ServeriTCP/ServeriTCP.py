@@ -57,7 +57,7 @@ def FIBONACCI(variablaHyrese):
     return str(a)
 def KONVERTIMI(zgjedhja,sasia):
     if(zgjedhja == 'KilowattToHorsepower'):
-        return(float(sasia/1.34102))
+        return(float(sasia*1.34102))
     elif(zgjedhja == 'HorsepowerToKilowatt'):
         return(float(sasia*0.7457))
     elif(zgjedhja == 'DegreesToRadians'):
